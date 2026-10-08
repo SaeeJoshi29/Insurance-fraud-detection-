@@ -1,0 +1,82 @@
+{
+  "dataset": {
+    "rows": 15420,
+    "fraud": 923,
+    "genuine": 14497
+  },
+  "split": {
+    "train": 10794,
+    "validation": 2313,
+    "test": 2313
+  },
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.6554,
+      "precision": 0.1268,
+      "recall": 0.8116,
+      "f1": 0.2194,
+      "roc_auc": 0.7737,
+      "confusion_matrix": [
+        [
+          1404,
+          771
+        ],
+        [
+          26,
+          112
+        ]
+      ]
+    },
+    "KNN": {
+      "accuracy": 0.5002,
+      "precision": 0.0947,
+      "recall": 0.8623,
+      "f1": 0.1707,
+      "roc_auc": 0.7263,
+      "confusion_matrix": [
+        [
+          1038,
+          1137
+        ],
+        [
+          19,
+          119
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.9412,
+      "precision": 0.75,
+      "recall": 0.0217,
+      "f1": 0.0423,
+      "roc_auc": 0.8042,
+      "confusion_matrix": [
+        [
+          2174,
+          1
+        ],
+        [
+          135,
+          3
+        ]
+      ]
+    },
+    "SVM": {
+      "accuracy": 0.9088,
+      "precision": 0.1933,
+      "recall": 0.1667,
+      "f1": 0.179,
+      "roc_auc": 0.7828,
+      "confusion_matrix": [
+        [
+          2079,
+          96
+        ],
+        [
+          115,
+          23
+        ]
+      ]
+    }
+  }
+}
